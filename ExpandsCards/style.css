@@ -10,8 +10,9 @@ body {
   height: 100vh;
 }
 
-h1,h3{
-color: aliceblue;
+h1,
+h3 {
+  color: aliceblue;
 }
 
 h1,
@@ -27,7 +28,7 @@ h1,
 }
 
 .panel {
-  background-size: auto 100%;
+  background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
   height: 80vh;
