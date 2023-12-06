@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  background-color: #2a2828;
 }
 
 body {
@@ -7,6 +8,11 @@ body {
   margin: 0;
   overflow: hidden;
   height: 100vh;
+}
+
+h1,
+h3 {
+  color: aliceblue;
 }
 
 h1,
@@ -22,7 +28,7 @@ h1,
 }
 
 .panel {
-  background-size: auto 100%;
+  background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
   height: 80vh;
