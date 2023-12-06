@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  background-color: #2a2828;
 }
 
 body {
@@ -7,6 +8,10 @@ body {
   margin: 0;
   overflow: hidden;
   height: 100vh;
+}
+
+h1,h3{
+color: aliceblue;
 }
 
 h1,
