@@ -1,0 +1,66 @@
+:root {
+  --color-filler: #f14949;
+  --color-liner: #f6eeee;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-filler);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  overflow: hidden;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+}
+
+.input {
+  background-color: var(--color-liner);
+  height: 45px;
+  width: 2.5rem;
+  border: 5px solid springgreen;
+  border-radius: 10px;
+  padding: 5px;
+  transition: width 0.3s ease;
+}
+
+.btn {
+  height: 45px;
+  width: 2.5rem;
+  border: 5px solid springgreen;
+  border-radius: 30%;
+  font-size: 22px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease;
+}
+
+.fa-search {
+  color: var(--color-filler);
+}
+
+.btn:focus,
+.input:focus {
+  outline: none;
+}
+
+.search.active .input {
+  width: 22rem;
+}
+
+.search.active .btn {
+  transform: translateX(23rem);
+}
