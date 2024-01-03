@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    overflow-x: hidden;
+    height: 100vh;
+    padding: 20px;
+  }
