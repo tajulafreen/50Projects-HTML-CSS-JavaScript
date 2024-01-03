@@ -34,7 +34,7 @@
     transition: transform 0.5s ease;
   }
   .content:nth-of-type(even){
-    transform: translateX(-200%);
+    transform: translateX(-400%);
   }
   .content.show{
     transform: translateX(0);
