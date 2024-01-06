@@ -1,0 +1,144 @@
+:root {
+  --left-bg-color: rgba(87, 84, 236, 0.7);
+  --right-bg-color: rgba(43, 43, 43, 0.8);
+  --left-btn-hovercolor: rgba(87, 84, 236, 1);
+  --right-btn-hovercolor: rgba(28, 122, 28, 1);
+  --hover-width: 75%;
+  --other-width: 25%;
+  --speed: 1000ms;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  overflow-x: hidden;
+  height: 100vh;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.btn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 50%;
+  top: 40%;
+  transform: translateX(-50%);
+  text-decoration: none;
+  color: #fff;
+  border: #fff solid 0.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 15rem;
+  padding: 1.5rem;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #333;
+}
+
+.split {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
+}
+
+.split.left {
+  left: 0;
+  background: url(./assets/ps5.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.split.left::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--left-bg-color);
+}
+
+.split.left .btn:hover {
+  background-color: var(--left-btn-hovercolor);
+  border-color: var(--left-btn-hovercolor);
+  box-shadow: 0 0 5px #0390f4, 0 0 15px #03e9f4, 0 0 25px #03e9f4;
+  cursor: pointer;
+}
+
+.split.right {
+  right: 0;
+  background: url(./assets/boxseries.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.split.right::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--right-bg-color);
+}
+
+.split.right .btn:hover {
+  background-color: var(--right-btn-hovercolor);
+  border-color: var(--right-btn-hovercolor);
+  box-shadow: 0 0 5px #03f46b, 0 0 15px #2ff403, 0 0 25px #67f403;
+  cursor: pointer;
+}
+
+.split.left,
+.split.right,
+.split.right::before,
+.split.left::before {
+  transition: all var(--speed) ease-in-out;
+}
+
+.hover-left .left {
+  width: var(--hover-width);
+}
+
+.hover-left .right {
+  width: var(--other-width);
+}
+
+.hover-right .right {
+  width: var(--hover-width);
+}
+
+.hover-right .left {
+  width: var(--other-width);
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 2rem;
+    top: 30%;
+  }
+
+  .btn {
+    padding: 1.2rem;
+    width: 12rem;
+  }
+}
