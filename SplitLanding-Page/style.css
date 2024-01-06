@@ -81,7 +81,7 @@ h1 {
 .split.left .btn:hover {
   background-color: var(--left-btn-hovercolor);
   border-color: var(--left-btn-hovercolor);
-  box-shadow: 0 0 5px #0390f4, 0 0 15px #03e9f4,0 0 25px #03e9f4;
+  box-shadow: 0 0 5px #0390f4, 0 0 15px #03e9f4, 0 0 25px #03e9f4;
   cursor: pointer;
 }
 
@@ -104,7 +104,7 @@ h1 {
 .split.right .btn:hover {
   background-color: var(--right-btn-hovercolor);
   border-color: var(--right-btn-hovercolor);
-  box-shadow: 0 0 5px #03f46b, 0 0 15px #2ff403,0 0 25px #67f403;
+  box-shadow: 0 0 5px #03f46b, 0 0 15px #2ff403, 0 0 25px #67f403;
   cursor: pointer;
 }
 
