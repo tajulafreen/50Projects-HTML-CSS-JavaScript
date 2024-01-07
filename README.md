@@ -1,7 +1,6 @@
 ![50 HTML CSS & JAVASCRIPT Projects Image](./assets/maxresdefault.jpg)
 
 <div>
-<img align="right" src="./assets//maxresdefault.jpg" width="60px">
 <h1 align="center">50 HTML CSS & JAVASCRIPT Projects</h1> 
 <p>Welcome to a collection of 50 exciting and diverse projects that showcase the power of HTML, CSS, and JavaScript in creating captivating animations and transitions. These projects are designed to demonstrate various animation techniques, transitions, and interactive elements to enhance your web development skills.</p>
 </div>
@@ -50,8 +49,8 @@ In order to run this project you need:
 <summary>Expanding Cards</summary>
 <p>"Expanding Cards" is an interactive web layout where clicking on an image expands it while automatically minimizing other cards, offering a captivating and organized way to explore content with seamless transitions and intuitive design.</p>
 <ul>
-<li><a href="">Live Demo</a></li>
-<li><a href="">Source</a></li>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/ExpandsCards/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/ExpandsCards">Source</a></li>
 </ul> 
 </details>
 </li>
@@ -61,8 +60,8 @@ In order to run this project you need:
 <summary>Hidden Search bar</summary>
 <p>Hidden Search Bar discreetly expands upon toggling, seamlessly integrating a sleek and intuitive search feature into interfaces, enhancing user accessibility and experience.</p>
 <ul>
-<li><a href="">Live Demo</a></li>
-<li><a href="">Source</a></li>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/HiddenSearch/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/HiddenSearch">Source</a></li>
 </ul> 
 </details>
 </li>
@@ -73,8 +72,8 @@ In order to run this project you need:
 <p>
 "Blurry Image" project utilizes covert blurring on page load, gradually transitioning images from a blurred state to crystal clear, enhancing visual experience seamlessly.</p>
 <ul>
-<li><a href="">Live Demo</a></li>
-<li><a href="">Source</a></li>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/BluringImage/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/BluringImage">Source</a></li>
 </ul> 
 </details>
 </li>
@@ -84,8 +83,8 @@ In order to run this project you need:
 <summary>Progressing steps</summary>
 <p>"Progressing Steps" project showcases dynamic button effects, visually demonstrating progression through color fills upon each click, embodying interactive advancement in just a tap.</p>
 <ul>
-<li><a href="">Live Demo</a></li>
-<li><a href="">Source</a></li>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/ProgressSteps/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/ProgressSteps">Source</a></li>
 </ul> 
 </details>
 </li>
@@ -95,8 +94,8 @@ In order to run this project you need:
 <summary>Rotating Navigation</summary>
 <p>"Rotating Navigation" is a dynamic project where clicking the menu bar triggers a 45-degree screen rotation, offering an engaging and unique user experience through interactive navigation.</p>
 <ul>
-<li><a href="">Live Demo</a></li>
-<li><a href="">Source</a></li>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/RotatingNavigation/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/RotatingNavigation">Source</a></li>
 </ul> 
 </details>
 </li>
@@ -106,8 +105,8 @@ In order to run this project you need:
 <summary>Scroll Animation</summary>
 <p>"Scroll Animation" is a dynamic project that imbues scrolling web pages with captivating animation effects, elevating the user experience through visually engaging content transitions triggered by scrolling actions.</p>
 <ul>
-<li><a href="">Live Demo</a></li>
-<li><a href="">Source</a></li>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/ScrollAnimation/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/ScrollAnimation">Source</a></li>
 </ul> 
 </details>
 </li>
@@ -117,8 +116,8 @@ In order to run this project you need:
 <summary>Split Landing Page</summary>
 <p>"Experience the 'Split Landing Page' - a dynamic interface that expands upon hover, providing an immersive view, and seamlessly minimizes upon mouse removal. Engage with captivating button glow effects, adding a touch of interactivity to your browsing journey."</p>
 <ul>
-<li><a href="">Live Demo</a></li>
-<li><a href="">Source</a></li>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/SplitLanding-Page/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/SplitLanding-Page">Source</a></li>
 </ul> 
 </details>
 </li>
