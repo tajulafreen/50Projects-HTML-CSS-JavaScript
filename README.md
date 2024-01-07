@@ -12,6 +12,14 @@
 
 <br>
 
+## Prerequisites
+
+In order to run this project you need:
+
+- Installed Git.
+- Installed npm
+- Installed VS code(code editor)
+
 ## Technologies
 
   <ul>
@@ -25,11 +33,14 @@
  <p>Each project folder contains the necessary HTML, CSS, and JavaScript files. To run any project:</p>
  <ol>
  <li>Clone this repository.</li>
+ <li>run `npm install` to install packages </li>
  <li>Navigate to the project folder.</li>
  <li>Open the index.html file in your preferred web browser.</li>
  </ol>
 
 <p>Feel free to explore, modify, and experiment with the code to better understand how these animations and transitions are achieved.</p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Project List
 
@@ -114,15 +125,41 @@
 
 </ol>
 
-## Contribute
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+## Contribution
 
-[![All Contributors](https://img.shields.io/github/all-contributors/Evavic44/portfolio-ideas?style=flat-square&color=%23EE8449)](#contributors)
+<p>If you wish to contribute to this collection by adding your own projects or enhancing existing ones, please follow these steps:</p>
+<ul>
+<li>Fork this repository.</li>
+<li>Create a new branch `(git checkout -b feature/add-your-feature)`. </li>
+<li>Make your modifications.</li>
+<li>Commit your changes `(git commit -am 'Add new feature')`.</li>
+<li>Push to the branch `(git push origin feature/add-your-feature)`.</li>
+<li>Create a new Pull Request.</li>
+</ul>
+<p>Contributions, issues, and feature requests are welcome! Feel free to check the issues page.</p>
 
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+## Credits
 
-<div>Want to add a portfolio to this list? read the <a href="https://github.com/Evavic44/portfolio-ideas/blob/main/CONTRIBUTING.md">guidelines</a> on how to do that.</div>
-<br>
+<p>These projects were curated and developed by <a href="https://github.com/tajulafreen/">Tajul Afreen</a>
+ and inspired by various online resources and tutorials. Contributions from the open-source community are welcomed and appreciated.</p>
 
-<p>This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!</p>
+👤 **Tajul Afreen**
+
+- GitHub: [tajulafreen](https://github.com/tajulafreen)
+- LinkedIn: [tajul-afreen](https://www.linkedin.com/in/tajul-afreen/)
+- Wellfound: [tajul-afreen](https://wellfound.com/u/tajul-afreen)
+- Twitter: [tajulafreen](https://www.twitter.com/tajulafreen)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you liked this project, give it a ⭐️ and kindly send to me an e-mail expressing it, it would make our day and fuel our motivation.
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
