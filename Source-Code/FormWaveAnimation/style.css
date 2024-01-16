@@ -78,7 +78,7 @@ a {
 
 .container {
   background:
-    linear-gradient(#000000, #000) padding-box,
+    linear-gradient(#000, #000) padding-box,
     linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
   padding: 20px 40px;
   border-radius: 3%;
