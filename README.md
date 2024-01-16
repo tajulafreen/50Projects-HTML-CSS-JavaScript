@@ -122,6 +122,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Form Wave Animation</summary>
+<p>Enhancing user interaction, this form features dynamic label animations with a mesmerizing wave effect, complemented by a gradient background for a stylish and immersive visual experience.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/FormWaveAnimation/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/FormWaveAnimation">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
