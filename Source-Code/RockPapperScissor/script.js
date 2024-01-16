@@ -1,29 +1,41 @@
-function getComputerChoice() {
+// eslint-disable-next-line import/no-unresolved
+import confetti from 'https://cdn.skypack.dev/canvas-confetti';
+
+const party = () => {
+  confetti({
+    particleCount: 100,
+    spread: 90,
+    origin: { y: 0.6 },
+  });
+};
+
+const getComputerChoice = () => {
   const rpsChoices = ['Rock', 'Paper', 'Scissors'];
   const computerChoice = rpsChoices[Math.floor(Math.random() * 3)];
   return computerChoice;
-}
+};
 
-function getResult(playerChoice, computerChoice) {
+const getResult = (playerChoice, computerChoice) => {
   let score;
 
   if (playerChoice === computerChoice) {
     score = 0;
-  } else if (playerChoice === 'Rock' && computerChoice === 'Scissors') {
-    score = 1;
-  } else if (playerChoice === 'Paper' && computerChoice === 'Rock') {
-    score = 1;
-  } else if (playerChoice === 'Scissors' && computerChoice === 'Paper') {
+  } else if (
+    (playerChoice === 'Rock' && computerChoice === 'Scissors')
+    || (playerChoice === 'Paper' && computerChoice === 'Rock')
+    || (playerChoice === 'Scissors' && computerChoice === 'Paper')
+  ) {
     score = 1;
   } else {
     score = -1;
   }
 
   return score;
-}
+};
 
-function showResult(score, playerChoice, computerChoice) {
+const showResult = (score, playerChoice, computerChoice) => {
   const result = document.getElementById('result');
+
   // eslint-disable-next-line default-case
   switch (score) {
     case -1:
@@ -34,6 +46,7 @@ function showResult(score, playerChoice, computerChoice) {
       break;
     case 1:
       result.innerText = 'You Win!';
+      party();
       break;
   }
 
@@ -41,31 +54,32 @@ function showResult(score, playerChoice, computerChoice) {
   const hands = document.getElementById('hands');
   playerScore.innerText = `${Number(playerScore.innerText) + score}`;
   hands.innerText = `👱 ${playerChoice} vs 🤖 ${computerChoice}`;
-}
+};
 
-function onClickRPS(playerChoice) {
+const onClickRPS = (playerChoice) => {
   const computerChoice = getComputerChoice();
-  const score = getResult(playerChoice.value, computerChoice);
-  showResult(score, playerChoice.value, computerChoice);
-}
+  const score = getResult(playerChoice, computerChoice);
+  showResult(score, playerChoice, computerChoice);
+};
 
-function endGame() {
+const endGame = () => {
   const playerScore = document.getElementById('player-score');
   const hands = document.getElementById('hands');
   const result = document.getElementById('result');
   playerScore.innerText = '';
   hands.innerText = '';
   result.innerText = '';
-}
+};
 
-function playGame() {
+const playGame = () => {
   const rpsButtons = document.querySelectorAll('.rpsButton');
 
   rpsButtons.forEach((rpsButton) => {
-    rpsButton.onclick = () => onClickRPS(rpsButton);
+    rpsButton.onclick = () => onClickRPS(rpsButton.value);
   });
 
   const endGameButton = document.getElementById('endGameButton');
   endGameButton.onclick = () => endGame();
-}
+};
+
 playGame();
