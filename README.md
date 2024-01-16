@@ -133,6 +133,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Rock Paper Scissor</summary>
+<p>Introducing a classic Rock, Paper, Scissors game with a modern twist. Experience the thrill of strategic choices and animated outcomes in this engaging web application, designed for both fun and interactive play.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/RockPapperScissor/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/RockPapperScissor">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
