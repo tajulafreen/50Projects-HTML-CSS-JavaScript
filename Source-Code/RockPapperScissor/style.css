@@ -1,0 +1,83 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  background: #1c1c1c;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  gap: 50px;
+}
+
+.button {
+  height: 100px;
+  width: 100px;
+  font-size: 48px;
+  border-radius: 40%;
+  cursor: pointer;
+  background-color: #1c1c1c;
+}
+
+.button:hover,
+.button:focus {
+  background: #e0e0e0;
+  box-shadow:
+    20px -20px 80px #65f5df,
+    -10px -10px 60px #65f5df;
+  transform: translateY(-6px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(0.3, 0.7, 0.4, 1.5);
+}
+
+.resultContainer {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#endGameButton {
+  height: 100px;
+  width: 100px;
+  font-size: 48px;
+  border-radius: 40%;
+  cursor: pointer;
+  background-color: #1c1c1c;
+  position: relative;
+  animation: beat 2s infinite;
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+#endGameButton:hover {
+  background: #e0e0e0;
+  box-shadow:
+    20px -20px 80px #65f5df,
+    -10px -10px 60px #65f5df;
+}
