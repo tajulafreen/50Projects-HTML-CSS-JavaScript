@@ -4,8 +4,8 @@
 }
 
 body {
-  background-color: brown;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #212121;
+  font-family: "Segoe UI", sans-serif;
   margin: 0;
   overflow: hidden;
   height: 100vh;
@@ -26,17 +26,44 @@ p {
 }
 
 .btn {
-  background-color: red;
+  position: relative;
+  background: linear-gradient(to bottom, #e81cff8d, #40c9ff69);
   padding: 15px;
   width: 80%;
   color: #fff;
   border: 1px #fff;
   border-radius: 7px;
-  font-size: 16px;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  animation: button-shimmer 2s infinite;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes button-shimmer {
+  0% {
+    background-position: left top;
+  }
+
+  100% {
+    background-position: right bottom;
+  }
+}
+
+@keyframes button-particles {
+  0% {
+    background-position: left top;
+  }
+
+  100% {
+    background-position: right bottom;
+  }
 }
 
 .btn:hover {
-  background-color: rgb(197, 9, 9);
+  background: linear-gradient(to bottom, #e81cff, #40c9ff);
+  animation: button-particles 1s ease-in-out infinite;
+  transform: translateY(-2px);
 }
 
 a {
@@ -45,11 +72,30 @@ a {
 }
 
 .container {
-  background-color: black;
+  background:
+    linear-gradient(#212121, #000) padding-box,
+    linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
   padding: 20px 40px;
   border-radius: 3%;
   display: flex;
   flex-direction: column;
+  background-size: 200% 100%;
+  animation: gradient 5s ease infinite;
+  border: 2px solid transparent;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .form-control {
@@ -61,7 +107,7 @@ a {
 .form-control input {
   background-color: transparent;
   border: 0;
-  border-bottom: 2px #fff solid;
+  border-bottom: 2px #ffffffd4 solid;
   display: block;
   width: 100%;
   font-size: 18px;
@@ -71,13 +117,14 @@ a {
 .form-control input:focus,
 .form-control input:valid {
   outline: 0;
-  border-bottom-color: #fff;
+  border-bottom-color: #ffffffd4;
 }
 
 .form-control label {
   position: absolute;
   top: 15px;
   left: 0;
+  color: #717171;
 }
 
 .form-control label span {
@@ -89,6 +136,6 @@ a {
 
 .form-control input:focus + label span,
 .form-control input:valid + label span {
-  color: #fff;
+  color: #ffffffb7;
   transform: translateY(-20px);
 }
