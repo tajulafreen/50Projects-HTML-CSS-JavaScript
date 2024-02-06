@@ -35,7 +35,7 @@
 }
 
 .temp{
-  font-size: 56px;
+  font-size: 50px;
   font-weight: 700;
 }
 .city{
@@ -50,11 +50,12 @@ li{
   display: flex;
   flex-direction: row;
   align-items: flex-end; 
-  padding: 5% 10%;
+  padding: 5% 5%;
   gap: 5%;
-  justify-content: space-between;
-
+  justify-content: space-evenly;
+  width: 50%;
 }
+
 .column{
   display: flex;
   flex-direction: column;
@@ -80,11 +81,6 @@ li{
   z-index: 1;
   padding: 3em 2em;
 }
-form {
-margin-bottom: 3em;
-display: flex;
-gap: 10px;
-}
 .input{
   height: 40px;
   width: 90%;
@@ -104,6 +100,8 @@ gap: 10px;
   border-radius: 9px;
   border: inherit;
   background-color: rgb(129, 180, 231);
+  margin-left: 3%;
+  position: absolute;
 }
 .fa-search{
   color: #fafafa;

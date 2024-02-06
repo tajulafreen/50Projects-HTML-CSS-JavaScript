@@ -66,10 +66,10 @@ locat.addEventListener("click", () =>
   navigator.geolocation.getCurrentPosition(gotlocation, failedlocation)
 );
 const citiesArray = [...cities];
-// citiesArray.forEach((element) => {
-//   element.addEventListener("click", async () => {
-//     const cityName = element.innerText; // Extract city name from the clicked element
-//     const result = await getData(cityName); // Pass the city name to getData
-//     updateWeatherInfo(result);
-//   });
-// });
+citiesArray.forEach((element) => {
+  element.addEventListener("click", async () => {
+    const cityName = element.innerText; // Extract city name from the clicked element
+    const result = await getData(cityName); // Pass the city name to getData
+    updateWeatherInfo(result);
+  });
+});
