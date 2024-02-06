@@ -4,20 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-        <div>
-        <h1>Weather App</h1>
-        <div>
-        <input id="input" type="text" placeholder="Enter city name">
-        <button id="btn">Search</button>
-    </div>
-        <h6 id="country"></h6>
-        <h6 id="city-name"></h6>
-        <p id="date-time"></p>
-        <div id="weather-icon"></div>
-        <p id="temp"></p>
-        <button id="getlocation">get the location</button>
+        <div class="weather-app">
+            <div class="weather-container">         
+   
+    <ul class="weather-information">
+        <!-- <h2 class="heading">Check Weather</h2>
+         -->
+        <h1 id="temp" class="temp">23°C</h1>
+        <li class="column">
+        <h1 id="city-name" class="city">Kadapa</h1>
+        <h4 id="date-time" class="time">2024-02-06 3:59</h4>
+    </li>
+    <li class="column">
+        <img id="weather-icon" class="icon" src="./icons/night/113.png" class="icon" alt="icon" />
+        <span id="condition" class="condition">Clear</span>
+    </li>
+    
+    </ul>
+    <ul class="weather-suggestions">
+        <form>
+        <input class="input" id="input" type="text" placeholder="Enter city name">
+        <button class="search" id="btn"><i class="fa fa-search"></i></button>
+        </form>
+        <ul>
+        <li>
+            <a class="location" id="getlocation"><i class="fa fa-location-arrow "> Get Weather of your city</i></a>
+        </li>
+        <li class="city">London</li>
+        <li class="city">Delhi</li>
+        <li class="city">Canada</li>
+        <li class="city">Morocco</li>
+        </ul>
+        <h3 class="weather-details">Weather details</h3>
+        <li class="row">
+            <h3  class="country">Country</h3>
+            <h3 id="country" class="country">India</h3>
+    
+        </li>
+        <li class="row">
+            <p  class="condition">Condition</p>
+            <span id="condition" class="condition">Clear</span>
+    
+        </li>
+        <li class="row">
+            <p class="humidity">Humidity</p>
+            <span id="humidity" class="humidity">humidity</span>
+    
+        </li>
+    </ul>
+</div>
+  
+        
         <script src="script.js"></script>
          </div>
   </body>
