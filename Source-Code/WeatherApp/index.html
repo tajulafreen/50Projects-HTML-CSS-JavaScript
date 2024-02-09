@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <div class="weather-app night-clear">
+            <div class="weather-container">         
+   
+    <ul class="weather-information">
+        <!-- <h2 class="heading">Check Weather</h2>
+         -->
+        <h1 id="temp" class="temp">23°C</h1>
+        <li class="column">
+        <h1 id="city-name" class="city">Kadapa</h1>
+        <h4 id="date-time" class="time">2024-02-06 3:59</h4>
+    </li>
+
+        <img id="icon" class="icon" class="icon" alt="icon" />
+   
+    
+    </ul>
+    <ul class="weather-suggestions">
+        
+        <input class="input" id="input" type="text" placeholder="Enter city name">
+        <button class="search" id="btn"><i class="fa fa-search"></i></button>
+        
+        <ul>
+        <li>
+            <a class="location" id="getlocation"><i class="fa fa-location-arrow "> Get Weather of your city</i></a>
+        </li>
+        <li class="city">London</li>
+        <li class="city">Kabul</li>
+        <li class="city">Ottawa</li>
+        <li class="city">california</li>
+        </ul>
+        <h3 class="weather-de">Weather details</h3>
+        <li class="weather-details">
+       
+        <div class="row">
+            <p  class="country">Country</p>
+            <span id="country" class="country">India</span>
+    
+        </div>
+        <div class="row">
+            <p  class="condition">Condition</p>
+            <span id="condition2" class="condition">Clear</span>
+    
+        </div>
+        <div class="row">
+            <p class="humidity">Humidity</p>
+            <span id="humidity" class="humidity">humidity</span>
+    
+        </div>
+    </li>
+    </ul>
+</div>
+  
+        
+        <script src="script.js"></script>
+         </div>
+  </body>
+</html>
