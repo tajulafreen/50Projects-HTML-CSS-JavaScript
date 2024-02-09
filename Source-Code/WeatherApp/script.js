@@ -43,7 +43,7 @@ const updateWeatherInfo = (result) => {
     condition2.innerText = current.condition.text;
     icon.src = current.condition.icon;
 
-    const isDay = current.is_day === 1 ? 'day' : 'night';
+    const isDay = current.is_day === 1 ? 'Day' : 'Night';
     const codes = [
       [1000, 10000, 10001, 1100, 11001, 11000, 51190, 60030], // clear
       [
