@@ -3,7 +3,9 @@
   padding: 0;
   margin: 0;
 }
-
+p, span{
+  font-size: 18px;
+}
 .weather-app{
   min-height: 100vh;
   min-width: 100vw;
@@ -53,7 +55,7 @@ li{
   padding: 5% 5%;
   gap: 5%;
   justify-content: space-evenly;
-  width: 50%;
+  width: 60%;
 }
 
 .column{
@@ -64,10 +66,9 @@ li{
 }
 .row{
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: 25px auto;
+  justify-content: space-between;
+  margin: 13px 30px;
+  gap: 30%;
 }
 
 .weather-suggestions{
@@ -131,19 +132,27 @@ justify-content: flex-start;
 span{
   font-size: medium;
 }
+.weather-de{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
 .weather-details{
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin: 30px auto;
-  align-items: center;
+  justify-items: center;
+margin: 6%;
+
 }
 .city, .location{
   display: block;
   cursor: pointer;
 }
 .city:hover, .location:hover{
-  color: #fff;
+  color: #ffffffc8;
+  transform: scale(1.2);
+  transition: 0.5s;
 }
 
 @media (max-width: 768px) {
@@ -155,4 +164,18 @@ span{
    .weather-suggestions, .weather-information{
 width: 100%;
    }
+
+   .temp{
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .city{
+    font-size: 28px;
+    font-weight: 700;
+    
+  }
+  .weather-information{ 
+    gap: 1%;
+  }
+  
 }
