@@ -144,6 +144,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>The Weather</summary>
+<p>Weather App automatically detects your location using navigator, providing real-time weather updates tailored to your area. Enjoy intuitive design, accurate forecasts, and dynamic backgrounds based on current weather conditions for a seamless weather browsing experience. Stay informed and prepared with our convenient and user-friendly Weather App with Location Detection.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/WeatherApp/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/WeatherApp">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
