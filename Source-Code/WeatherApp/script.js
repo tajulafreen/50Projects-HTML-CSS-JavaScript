@@ -4,6 +4,7 @@ const apiKey = "e3a46268fdc2475cb63214712240202";
 const cityName = document.getElementById("city-name");
 const dateTime = document.getElementById("date-time");
 const condition = document.getElementById("condition");
+const condition2 = document.getElementById("condition2");
 const temp = document.getElementById("temp");
 const humidity = document.getElementById("humidity");
 const country = document.getElementById("country");
@@ -28,6 +29,10 @@ const updateWeatherInfo = (result) => {
   country.innerText = `${result.location.country}`;
   dateTime.innerText = `${result.location.localtime}`;
   temp.innerText = `${result.current.temp_c} °C`;
+  humidity.innerText = `${result.current.humidity} %`;
+  condition.innerText = `${result.current.condition.text}`;
+  condition2.innerText = `${result.current.condition.text}`;
+  icon.src = `${result.current.condition.icon}`; // Set the src attribute of the img tag with id "icon"
 };
 const getData = async (cityName) =>
   fetchData(
@@ -57,6 +62,7 @@ btn.addEventListener("click", async () => {
     const { value } = input;
     const result = await getData(value);
     updateWeatherInfo(result);
+    console.log(result);
   } catch (error) {
     cityName.innerText = "Error to fetch weather";
   }
