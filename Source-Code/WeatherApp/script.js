@@ -77,7 +77,7 @@ const updateWeatherInfo = (result) => {
 const getData = async (cityName) => {
   try {
     const result = await fetchData(
-      `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${cityName}&aqi=no`,
+      `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${cityName}&aqi=no`,
     );
     return result;
   } catch (error) {
@@ -87,7 +87,7 @@ const getData = async (cityName) => {
   }
 };
 const getlocation = async (lat, long) => fetchData(
-  `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${lat},${long}&aqi=no`,
+  `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${lat},${long}&aqi=no`,
 );
 
 const gotlocation = async (position) => {
