@@ -1,16 +1,16 @@
-const input = document.getElementById("input");
-const btn = document.getElementById("btn");
-const apiKey = "e3a46268fdc2475cb63214712240202";
-const cityName = document.getElementById("city-name");
-const dateTime = document.getElementById("date-time");
-const condition2 = document.getElementById("condition2");
-const temp = document.getElementById("temp");
-const humidity = document.getElementById("humidity");
-const countryy = document.getElementById("country");
-const locat = document.getElementById("getlocation");
-const cities = document.getElementsByClassName("city");
-const icon = document.getElementById("icon");
-const body = document.querySelector(".weather-app");
+const input = document.getElementById('input');
+const btn = document.getElementById('btn');
+const apiKey = 'e3a46268fdc2475cb63214712240202';
+const cityName = document.getElementById('city-name');
+const dateTime = document.getElementById('date-time');
+const condition2 = document.getElementById('condition2');
+const temp = document.getElementById('temp');
+const humidity = document.getElementById('humidity');
+const countryy = document.getElementById('country');
+const locat = document.getElementById('getlocation');
+const cities = document.getElementsByClassName('city');
+const icon = document.getElementById('icon');
+const body = document.querySelector('.weather-app');
 const fetchData = async (url) => {
   try {
     const data = await fetch(url);
@@ -29,9 +29,9 @@ const updateWeatherInfo = (result) => {
   if (error) {
     cityName.innerText = `Error: ${error.message}`;
     [countryy, dateTime, temp, humidity, condition2, icon].forEach((elem) => {
-      elem.innerText = "";
+      elem.innerText = '';
     });
-    icon.src = "";
+    icon.src = '';
   } else {
     const { name, country, localtime } = location;
     console.log(country);
@@ -43,7 +43,7 @@ const updateWeatherInfo = (result) => {
     condition2.innerText = current.condition.text;
     icon.src = current.condition.icon;
 
-    const isDay = current.is_day === 1 ? "day" : "night";
+    const isDay = current.is_day === 1 ? 'day' : 'night';
     const codes = [
       [1000, 10000, 10001, 1100, 11001, 11000, 51190, 60030], // clear
       [
@@ -78,38 +78,37 @@ const updateWeatherInfo = (result) => {
 const getData = async (cityName) => {
   try {
     const result = await fetchData(
-      `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${cityName}&aqi=no`
+      `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${cityName}&aqi=no`,
     );
     return result;
   } catch (error) {
     return {
-      error: { message: "Failed to fetch data. Please try again later." },
+      error: { message: 'Failed to fetch data. Please try again later.' },
     };
   }
 };
-const getlocation = async (lat, long) =>
-  fetchData(
-    `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${lat},${long}&aqi=no`
-  );
+const getlocation = async (lat, long) => fetchData(
+  `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${lat},${long}&aqi=no`,
+);
 
 const gotlocation = async (position) => {
   try {
     const result = await getlocation(
       position.coords.latitude,
-      position.coords.longitude
+      position.coords.longitude,
     );
     console.log(result);
     updateWeatherInfo(result);
   } catch (error) {
-    cityName.innerText = "Error fetching weather based on location";
+    cityName.innerText = 'Error fetching weather based on location';
   }
 };
-const failedlocation = () => console.log("failed to locate location");
+const failedlocation = () => console.log('failed to locate location');
 
-btn.addEventListener("click", async (e) => {
+btn.addEventListener('click', async (e) => {
   try {
     if (input.value.length === 0) {
-      alert("Please type a city name");
+      alert('Please type a city name');
     } else {
       const { value } = input;
       const result = await getData(value);
@@ -118,23 +117,21 @@ btn.addEventListener("click", async (e) => {
       console.log(result);
     }
   } catch (error) {
-    cityName.innerText = "Error to fetch weather";
+    cityName.innerText = 'Error to fetch weather';
   }
   e.preventDefault();
 });
 
-locat.addEventListener("click", () =>
-  navigator.geolocation.getCurrentPosition(gotlocation, failedlocation)
-);
+locat.addEventListener('click', () => navigator.geolocation.getCurrentPosition(gotlocation, failedlocation));
 const citiesArray = [...cities];
 citiesArray.forEach((element) => {
-  element.addEventListener("click", async () => {
+  element.addEventListener('click', async () => {
     const cityName = element.innerText;
     const result = await getData(cityName);
     updateWeatherInfo(result);
   });
 });
 
-window.addEventListener("load", async () => {
+window.addEventListener('load', async () => {
   navigator.geolocation.getCurrentPosition(gotlocation, failedlocation);
 });
