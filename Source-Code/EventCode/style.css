@@ -13,7 +13,7 @@ body{
     justify-content:center;
     align-items:center
 }
-.insert{
+#insert{
     display:flex;
     flex-direction:column;
     align-items:center
