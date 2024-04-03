@@ -155,6 +155,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Event Code</summary>
+<p>The Event Code project is a simple web application that allows users to obtain the keycode of any key they press on their keyboard. Built using HTML, CSS, and JavaScript, the application provides a user-friendly interface where users can press any key, and the corresponding keycode will be displayed on the screen in real-time. This project serves as a practical demonstration of event handling in web development and can be used as a learning tool for understanding keyboard events in JavaScript.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/EventCode/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/EventCode">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
