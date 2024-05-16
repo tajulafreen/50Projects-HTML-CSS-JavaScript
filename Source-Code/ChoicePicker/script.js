@@ -3,7 +3,7 @@ const textarea = document.getElementById('textarea')
 
 textarea.focus()
 
-function createTags(input){
+const createTags = (input) => {
     const tags = input.split(',').filter(tag=> tag.trim()!=='').map(tag => tag.trim())
     tagsEl.innerHTML = ''
     tags.forEach(tag => {
@@ -15,20 +15,20 @@ function createTags(input){
     });
 }
 
-function pickRandomTag(){
+const pickRandomTag = ()=>{
     const tags = document.querySelectorAll('.tag')
     return tags[Math.floor(Math.random()* tags.length)]
 }
 
-function highlightTag(tag){
+const highlightTag = (tag)=>{
     tag.classList.add('highlight')
 }
 
-function unHighlightTag(tag){
+const unHighlightTag = (tag)=>{
     tag.classList.remove('highlight')
 }
 
-function randomSelect() {
+const randomSelect = () => {
     const times = 30
     const interval = setInterval(()=>{
         const randomTag = pickRandomTag()
