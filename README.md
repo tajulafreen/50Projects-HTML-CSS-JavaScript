@@ -171,7 +171,7 @@ In order to run this project you need:
 <summary>Choice Picker</summary>
 <p>A cutting-edge web application leveraging HTML, CSS, and JavaScript technologies to facilitate user selection from a customizable range of options. The application features an intuitive interface with a text input field, where users can enter their preferred choices. Upon submission, the system randomly cycles through the entered options and lands on a selected choice, which is prominently highlighted with a distinct color scheme, distinguishing it from the other options.</p>
 <ul>
-<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/Choicepicker/">Live Demo</a></li>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/ChoicePicker/">Live Demo</a></li>
 <li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/ChoicePicker">Source</a></li>
 </ul> 
 </details>
