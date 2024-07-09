@@ -58,16 +58,13 @@ h1 {
 .split {
   position: absolute;
   width: 50%;
-  height: 50%;
+  height: 100%;
   overflow: hidden;
 }
 
 .split.left {
   left: 0;
-  background: url(./assets/ps5.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
+  background: url(./assets/ps5.webp) no-repeat center center/cover;
 }
 
 .split.left::before {
@@ -87,10 +84,7 @@ h1 {
 
 .split.right {
   right: 0;
-  background: url(./assets/boxseries.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
+  background: url(./assets/boxseries.jpeg) no-repeat center center/cover;
 }
 
 .split.right::before {
