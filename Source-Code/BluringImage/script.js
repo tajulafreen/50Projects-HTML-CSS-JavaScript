@@ -1,19 +1,27 @@
-/* eslint-disable*/
+// Disable ESLint for the entire file
+/* eslint-disable */
+
+// Select DOM elements
 const loadingText = document.querySelector(".loading-text");
 const bg = document.querySelector(".bg");
+
 let load = 0;
 
+// Function to update the loading state and apply styles
 const blurring = () => {
-  load += 1;
+  load++;
   if (load > 99) {
-    clearInterval(int);
+    clearInterval(intervalId);
   }
   loadingText.innerText = `${load}%`;
   loadingText.style.opacity = scale(load, 0, 100, 1, 0);
   bg.style.filter = `blur(${scale(load, 0, 100, 30, 0)}px)`;
 };
 
-const int = setInterval(blurring, 20);
-const scale = (num, in_min, in_max, out_min, out_max) => {
-  return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min;
+// Start the interval to run the blurring function every 20ms
+const intervalId = setInterval(blurring, 20);
+
+// Utility function to scale a number from one range to another
+const scale = (num, inMin, inMax, outMin, outMax) => {
+  return ((num - inMin) * (outMax - outMin)) / (inMax - inMin) + outMin;
 };
