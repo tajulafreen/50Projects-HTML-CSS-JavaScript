@@ -188,6 +188,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Weight Converter</summary>
+<p>Weight Converter is a simple and efficient tool built using HTML, CSS, and JavaScript. The Weight Converter project is a beginner-friendly web development project designed to help users convert weight measurements seamlessly. Users can input a weight in kilograms and instantly see conversions to grams, pounds, and ounces.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/WeightConverter/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/WeightConverter">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

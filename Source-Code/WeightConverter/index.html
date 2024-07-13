@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Weight Converter</h1>
+    <div class="card">
+        <form name="converter" class="main" action="index.html" method="POST">
+            <ul>
+            <li>
+            <label for="kgs">Weight (in kgs): </label>
+            <input class="values" type="text" name="inkilograms" id="kgs" placeholder="Enter Weight..">
+        </li>
+            <li>
+            <input class="buttons" id="convertButton" value="Convert" type="button" onclick="convert()"/>
+            <input class="buttons" id="resetButton" value="Reset" type="reset"/>
+        </li>
+        </ul>
+            <ul class="flex">
+                <li>
+            <label for="grams">Weight (in grams): </label>
+            <input class="values" type="text" name="ingrams" id="grams">
+        </li>
+    <li>
+            <label for="pounds">Weight (in pounds): </label>
+            <input class="values" type="text" name="inpounds" id="pounds">
+        </li>
+    <li>
+            <label for="ounces">Weight (in ounces): </label>
+            <input class="values" type="text" name="inounces" id="ounces">
+        </li>
+        </ul>
+        </form>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
