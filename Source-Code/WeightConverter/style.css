@@ -1,3 +1,4 @@
+/* stylelint-disable */
 body {
   background: linear-gradient(to left, aqua, rgb(0, 128, 255));
   line-height: 0.5;
@@ -7,6 +8,10 @@ body {
 .main {
   width: 500px;
   position: absolute;
+  top: 40%;
+  left: 50%;
+  transition: 0.25px;
+  transform: translate(-50%, -50%);
   justify-items: center;
   text-align: center;
 }
@@ -14,8 +19,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  justify-items: center;
-  padding: 40px;
+  align-items: center;
 }
 
 .card {
