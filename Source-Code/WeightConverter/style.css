@@ -1,27 +1,24 @@
-body{
-    background: linear-gradient(to left, aqua, rgb(0, 128, 255));
-    line-height: 0.5;
-    text-align: center;
-  }
-
-.main{
-    width: 500px;
-    padding-bottom: 100;
-    position: absolute;
-    top:40%;
-    left:50%;
-    transition:0.25px;
-    transform: translate(-50%,-50%);
-    justify-items: center;
-    text-align: center;
+body {
+  background: linear-gradient(to left, aqua, rgb(0, 128, 255));
+  line-height: 0.5;
+  text-align: center;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.main {
+  width: 500px;
+  position: absolute;
+  justify-items: center;
+  text-align: center;
 }
-.card{
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  padding: 40px;
+}
+
+.card {
   box-shadow: 0 4px 8px 0;
   transition: 0.4s;
   width: 300px;
@@ -31,33 +28,33 @@ body{
   margin: 10px;
 }
 
-h1{
+h1 {
   font-size: 30px;
   color: antiquewhite;
   text-align: center;
 }
 
-.values{
+.values {
   width: 240px;
   text-align: center;
   border: 2px solid transparent;
   border-radius: 5px;
-  font-size: 20;
-  padding: 10px 0px;
-  transition: border 0.5px;
-}
-li{
-    list-style-type: none;
-}
-ul{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    justify-content: flex-start;
+  padding: 10px 0;
 }
 
-.buttons{
-  border:3px solid;
+li {
+  list-style-type: none;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: flex-start;
+}
+
+.buttons {
+  border: 3px solid;
   background-color: rgb(40, 211, 40);
   color: white;
   font-size: 16px;
@@ -69,8 +66,6 @@ ul{
   margin-left: 40px;
 }
 
-
-label{
+label {
   font-size: 20px;
 }
-
