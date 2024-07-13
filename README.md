@@ -177,6 +177,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Word Counter</summary>
+<p>Word Counter App is a simple and efficient tool built using HTML, CSS, and JavaScript. This application provides users with an easy way to count words, characters, sentences, and paragraphs in a given text. Additionally, it offers features such as readability score and estimated reading time.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/WordCounter/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/WordCounter">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
