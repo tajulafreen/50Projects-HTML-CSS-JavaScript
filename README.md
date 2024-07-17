@@ -199,6 +199,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Random Color Generator</summary>
+<p>Random Color Generator is a user-friendly tool built using HTML, CSS, and JavaScript. The Random Color Generator project is a beginner-friendly web development project designed to help users generate random colors effortlessly. Users can click a button to instantly see randomly generated colors.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/RandomColorGenerator/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/RandomColorGenerator">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -232,6 +243,10 @@ In order to run this project you need:
 
 - GitHub: [olanikegloria](https://github.com/olanikegloria)
 - LinkedIn: [olanikegloria](https://www.linkedin.com/in/olani/)
+
+👤 **amiii123malviya**
+
+- GitHub: [amiii123malviya](https://github.com/amiii123malvi)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
