@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body
+{
+    transition: 1s;
+}
+.main
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    width: 30rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+
+
+}
+button{
+display: block;
+width: 100%;
+background-color: black;
+color: white;
+border: none;
+border-radius: 5px;
+    font-size: 40px;
+    margin-top: 5px;
+
+}
