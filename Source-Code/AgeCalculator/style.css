@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 600px;
+
+  /* margin:auto;
+    margin-top:10%;
+    margin-bottom:10%; */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(169, 216, 80);
+  box-shadow: 8px 8px black;
+  color: white;
+  padding: 5% 0%;
+}
+
+#currDate {
+  font-size: 30px;
+  margin: 20px;
+  font-weight: bold;
+}
+
+input {
+  font-size: 20px;
+  padding: 15px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid yellow;
+  cursor: pointer;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: yellow;
+  color: black;
+  margin: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: rgb(169, 216, 80);
+}
+
+#displayAge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 620px;
+  height: 490px;
+  background-color: rgb(91, 228, 141);
+  border-radius: 30px;
+  position: absolute;
+  visibility: hidden;
+}
+
+#age {
+  color: white;
+  font-size: 50px;
+  margin: 20px;
+  font-weight: bold;
+}
