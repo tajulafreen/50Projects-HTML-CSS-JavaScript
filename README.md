@@ -210,6 +210,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Age Calculator</summary>
+<p>Age Calculator is a user-friendly tool built using HTML, CSS, and JavaScript. The Age Calculator project is a beginner-friendly web development project designed to help users calculate their age effortlessly. Users can input their date of birth and instantly see their age in years.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/AgeCalculator/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/AgeCalculator">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
