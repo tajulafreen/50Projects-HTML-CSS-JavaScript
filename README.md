@@ -254,6 +254,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Analog Watch</summary>
+<p>Analog Watch is a visually appealing and functional timekeeping tool built using HTML, CSS, and JavaScript. This project features a classic analog clock design with distinct hour, minute, and second hands. The clock displays the current time with real-time updates, and its stylish design includes subtle shadowing and color adjustments to enhance its aesthetic appeal. The clock’s hands are dynamically styled with CSS for a modern and engaging look.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/AnalogWatch/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/AnalogWatch/Calculator">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
