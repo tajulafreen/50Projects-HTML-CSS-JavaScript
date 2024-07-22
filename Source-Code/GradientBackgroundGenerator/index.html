@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gradient Background Generator</title>
-    <link rel="stylesheet" href="style.css">
-    
-</head>
-<body>
-   
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body id="gradient">
+    <h1>Background Generator</h1>
+    <label for="color1">Choose Color 1:</label>
+    <input
+      class="color1"
+      type="color"
+      id="color1"
+      name="color1"
+      value="#ff0000"
+    />
+    <label for="color2">Choose Color 2:</label>
+    <input
+      class="color2"
+      type="color"
+      id="color2"
+      name="color2"
+      value="#ffff00"
+    />
+    <h2>Current CSS Background</h2>
+    <div id="css-container">
+      <h3 id="css-background"></h3>
+      <button id="copy-btn">
+        <span class="transition"></span>
+        <span class="gradient"></span>
+        Copy
+      </button>
+    </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
