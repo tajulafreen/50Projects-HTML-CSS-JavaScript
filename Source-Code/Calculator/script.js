@@ -1,18 +1,18 @@
-let firstOperand = "";
-let secondOperand = "";
+let firstOperand = '';
+let secondOperand = '';
 let currentOperator = null;
 let awaitingSecondOperand = false;
 
-const display = document.querySelector(".calculator-screen");
-const keys = document.querySelector(".calculator-keys");
+const display = document.querySelector('.calculator-screen');
+const keys = document.querySelector('.calculator-keys');
 
 const updateDisplay = () => {
   display.value = awaitingSecondOperand ? secondOperand : firstOperand;
 };
 
 const resetCalculator = () => {
-  firstOperand = "";
-  secondOperand = "";
+  firstOperand = '';
+  secondOperand = '';
   currentOperator = null;
   awaitingSecondOperand = false;
   updateDisplay();
@@ -27,26 +27,13 @@ const inputNumber = (number) => {
   updateDisplay();
 };
 
-const inputOperator = (operator) => {
-  if (!firstOperand) return;
-
-  if (secondOperand) {
-    calculate();
-  }
-
-  currentOperator = operator;
-  awaitingSecondOperand = true;
-};
-
 const inputDecimal = () => {
   if (awaitingSecondOperand) {
-    if (!secondOperand.includes(".")) {
-      secondOperand += ".";
+    if (!secondOperand.includes('.')) {
+      secondOperand += '.';
     }
-  } else {
-    if (!firstOperand.includes(".")) {
-      firstOperand += ".";
-    }
+  } else if (!firstOperand.includes('.')) {
+    firstOperand += '.';
   }
   updateDisplay();
 };
@@ -59,16 +46,16 @@ const calculate = () => {
   if (Number.isNaN(first) || Number.isNaN(second)) return;
 
   switch (currentOperator) {
-    case "+":
+    case '+':
       result = first + second;
       break;
-    case "-":
+    case '-':
       result = first - second;
       break;
-    case "*":
+    case '*':
       result = first * second;
       break;
-    case "/":
+    case '/':
       result = first / second;
       break;
     default:
@@ -76,32 +63,42 @@ const calculate = () => {
   }
 
   firstOperand = String(result);
-  secondOperand = "";
+  secondOperand = '';
   awaitingSecondOperand = false;
   currentOperator = null;
   updateDisplay();
 };
+const inputOperator = (operator) => {
+  if (!firstOperand) return;
 
-keys.addEventListener("click", (event) => {
+  if (secondOperand) {
+    calculate();
+  }
+
+  currentOperator = operator;
+  awaitingSecondOperand = true;
+};
+
+keys.addEventListener('click', (event) => {
   const { target } = event;
   const { value } = target;
 
-  if (!target.matches("button")) return;
+  if (!target.matches('button')) return;
 
   switch (value) {
-    case "all-clear":
+    case 'all-clear':
       resetCalculator();
       break;
-    case "=":
+    case '=':
       calculate();
       break;
-    case ".":
+    case '.':
       inputDecimal();
       break;
-    case "+":
-    case "-":
-    case "*":
-    case "/":
+    case '+':
+    case '-':
+    case '*':
+    case '/':
       inputOperator(value);
       break;
     default:
@@ -111,4 +108,4 @@ keys.addEventListener("click", (event) => {
   }
 });
 
-document.addEventListener("DOMContentLoaded", updateDisplay);
+document.addEventListener('DOMContentLoaded', updateDisplay);
