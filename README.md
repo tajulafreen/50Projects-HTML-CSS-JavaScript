@@ -232,6 +232,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Gradient Background Generator</summary>
+<p>The Gradient Background Generator is a user-friendly tool built using HTML, CSS, and JavaScript. This project allows users to create beautiful gradient backgrounds effortlessly. Users can select two colors to generate a gradient background and see the corresponding CSS code, which they can easily copy and use in their own projects. The tool is designed to be beginner-friendly, making it an excellent project for those new to web development.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/GradientBackgroundGenerator/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/GradientBackgroundGenerator">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
