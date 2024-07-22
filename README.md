@@ -221,6 +221,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>BMI Calculator</summary>
+<p>The BMI Calculator is a simple web application built using HTML, CSS, and JavaScript. It allows users to easily calculate their Body Mass Index (BMI) by entering their height and weight. The application then computes the BMI and displays the result, helping users understand their body mass relative to their height and weight. This project is beginner-friendly and provides a practical example of using basic web development skills to create a functional tool.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/BMICalculator/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/BMICalculator">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
