@@ -243,6 +243,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Calculator</summary>
+<p>Calculator is a straightforward and user-friendly tool developed using HTML, CSS, and JavaScript. This beginner-friendly web development project is designed to help users perform basic arithmetic operations such as addition, subtraction, multiplication, and division seamlessly. Users can input numbers and choose an operator to instantly see the calculated result. The calculator also includes functionalities for clearing the input and handling decimal numbers.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/Calculator/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/Calculator">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
