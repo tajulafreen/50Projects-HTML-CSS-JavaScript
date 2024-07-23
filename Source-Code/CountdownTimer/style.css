@@ -37,11 +37,8 @@ h1 {
 
 .countdown {
   text-align: center;
-
-  /* margin-left: 2rem; */
 }
 
 .countdown span {
-  /* margin-left: -1 rem; */
   font-size: 2rem;
 }
