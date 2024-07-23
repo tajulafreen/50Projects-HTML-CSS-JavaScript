@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Filter</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <a href="#" class="navbar-brand">Image Filter</a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="custom-file">
+            <input type="file" id="upload-file" />
+          </div>
+          <canvas id="canvas"></canvas>
+
+          <h4>Filters</h4>
+          <div class="row" id="row-1">
+            <div class="col">
+              <div class="btn-group">
+                <button class="filter-btn brightness-remove">-</button>
+                <button class="btn-disabled" disabled>Brightness</button>
+                <button class="filter-btn brightness-add">+</button>
+              </div>
+            </div>
+            <div class="col">
+              <div class="btn-group">
+                <button class="filter-btn contrast-remove">-</button>
+                <button class="btn-disabled" disabled>Contrast</button>
+                <button class="filter-btn contrast-add">+</button>
+              </div>
+            </div>
+            <div class="col">
+              <div class="btn-group">
+                <button class="filter-btn saturation-remove">-</button>
+                <button class="btn-disabled" disabled>Saturation</button>
+                <button class="filter-btn saturation-add">+</button>
+              </div>
+            </div>
+            <div class="col">
+              <div class="btn-group">
+                <button class="filter-btn vibrance-remove">-</button>
+                <button class="btn-disabled" disabled>Vibrance</button>
+                <button class="filter-btn vibrance-add">+</button>
+              </div>
+            </div>
+          </div>
+
+          <h4>Effects</h4>
+          <div class="row" id="row-2">
+            <button class="vintage-add btn-dark">Vintage</button>
+
+            <button class="lomo-add btn-dark">Lomo</button>
+
+            <button class="clarity-add btn-dark">Clarity</button>
+
+            <button class="sincity-add btn-dark">Sin City</button>
+          </div>
+
+          <div class="row" id="row-3">
+            <button class="crossprocess-add btn-dark">Cross Process</button>
+
+            <button class="pinhole-add btn-dark">Pinhole</button>
+
+            <button class="nostalgia-add btn-dark">Nostalgia</button>
+
+            <button class="hermajesty-add btn-dark">Majesty</button>
+          </div>
+          <div class="row" id="row-4">
+            <button id="download-btn" class="btn-primary">
+              Download Image
+            </button>
+
+            <button id="revert-btn" class="btn-danger">Remove Filters</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
