@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./assets/eid.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+  margin-top: 4rem;
+  color: #c9cc6b;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 1rem;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.big-text {
+  font-weight: bold;
+  font-size: 8rem;
+  line-height: 0.5;
+  margin: 1rem 2rem;
+}
+
+.countdown {
+  text-align: center;
+}
+
+.countdown span {
+  font-size: 2rem;
+}
