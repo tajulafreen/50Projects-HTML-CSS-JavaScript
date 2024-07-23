@@ -12,7 +12,7 @@ document.getElementById('upload-file').addEventListener('change', (e) => {
   const file = e.target.files[0];
   const reader = new FileReader();
 
-  reader.onload = function (event) {
+  reader.onload = (event) => {
     img.src = event.target.result;
   };
 
@@ -22,19 +22,17 @@ document.getElementById('upload-file').addEventListener('change', (e) => {
 });
 
 // Helper function to clamp values
-function clamp(value) {
-  return Math.min(Math.max(value, 0), 255);
-}
+const clamp = (value) => Math.min(Math.max(value, 0), 255);
 
 // Draw image to canvas
-img.onload = function () {
+img.onload = () => {
   canvas.width = img.width;
   canvas.height = img.height;
   ctx.drawImage(img, 0, 0);
 };
 
 // Redraw image with current adjustments
-function drawImage() {
+const drawImage = () => {
   ctx.drawImage(img, 0, 0);
   const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
   const { data } = imageData;
@@ -72,34 +70,34 @@ function drawImage() {
     data[i + 2] = clamp(data[i + 2] + amount); // Blue
   }
   ctx.putImageData(imageData, 0, 0);
-}
+};
 
 // Apply brightness
-function applyBrightness(value) {
+const applyBrightness = (value) => {
   brightness += value;
   drawImage();
-}
+};
 
 // Apply contrast
-function applyContrast(value) {
+const applyContrast = (value) => {
   contrast += value;
   drawImage();
-}
+};
 
 // Apply saturation
-function applySaturation(value) {
+const applySaturation = (value) => {
   saturation += value;
   drawImage();
-}
+};
 
 // Apply vibrance
-function applyVibrance(value) {
+const applyVibrance = (value) => {
   vibrance += value;
   drawImage();
-}
+};
 
 // Apply effect
-function applyEffect(effect) {
+const applyEffect = (effect) => {
   drawImage();
   const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
   const { data } = imageData;
@@ -162,24 +160,24 @@ function applyEffect(effect) {
   }
 
   ctx.putImageData(imageData, 0, 0);
-}
+};
 
 // Download image
-function downloadImage() {
+const downloadImage = () => {
   const link = document.createElement('a');
   link.download = fileName;
   link.href = canvas.toDataURL('image/jpeg');
   link.click();
-}
+};
 
 // Revert filters
-function revertFilters() {
+const revertFilters = () => {
   brightness = 0;
   contrast = 0;
   saturation = 0;
   vibrance = 0;
   drawImage();
-}
+};
 
 // Event listeners for filter buttons
 document
