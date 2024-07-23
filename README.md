@@ -276,6 +276,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Countdown Timer</summary>
+<p>The Countdown Timer is an intuitive and visually appealing tool built using HTML, CSS, and JavaScript. This project allows users to set a countdown to a specific event or deadline, providing a real-time display of the remaining days, hours, minutes, and seconds. It's a great project for beginners to practice and enhance their web development skills.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/CountdownTimer/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/CountdownTimer">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
