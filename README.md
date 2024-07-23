@@ -287,6 +287,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Image Filter</summary>
+<p>The Image Filter Web Application allows users to upload and edit images by applying various filters (brightness, contrast, saturation, and vibrance) and effects (vintage, lomo, clarity, etc.). Users can preview changes on a canvas, download the edited image, or revert to the original. This application is built using HTML, CSS, and vanilla JavaScript.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/ImageFilter/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/ImageFilter">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
