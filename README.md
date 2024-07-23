@@ -260,7 +260,18 @@ In order to run this project you need:
 <p>Analog Watch is a visually appealing and functional timekeeping tool built using HTML, CSS, and JavaScript. This project features a classic analog clock design with distinct hour, minute, and second hands. The clock displays the current time with real-time updates, and its stylish design includes subtle shadowing and color adjustments to enhance its aesthetic appeal. The clock’s hands are dynamically styled with CSS for a modern and engaging look.</p>
 <ul>
 <li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/AnalogWatch/">Live Demo</a></li>
-<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/AnalogWatch/Calculator">Source</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/AnalogWatch">Source</a></li>
+</ul> 
+</details>
+</li>
+
+<li>
+<details>
+<summary>FAQ Application</summary>
+<p>The FAQ Application is a responsive web-based tool designed to provide users with quick and easy access to frequently asked questions and their answers. Built with HTML, CSS, and JavaScript, this project showcases a clean and intuitive interface that allows users to expand and collapse answers with a simple click.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/FAQApplication/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/FAQApplication">Source</a></li>
 </ul> 
 </details>
 </li>
