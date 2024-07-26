@@ -298,6 +298,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Day Predictor</summary>
+<p>A Simple Week Day Predictor App written in HTML, CSS, and JavaScript. This app displays the current day of the week along with a corresponding motivational quote, using local computer time.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/DayPredictor/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/DayPredictor">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
