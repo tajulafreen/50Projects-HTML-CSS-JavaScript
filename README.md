@@ -309,6 +309,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Github Profile Finder</summary>
+<p>The GitHub User Info Finder is a web application designed to fetch and display detailed information about GitHub users. By simply entering a GitHub username, users can retrieve profile information including the avatar, name, bio, number of public repositories, followers, and following count. This project leverages the GitHub API to provide real-time data, and it is built using HTML, CSS, and JavaScript for a seamless user experience.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/GithubProfileFinder/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/GithubProfileFinder">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
