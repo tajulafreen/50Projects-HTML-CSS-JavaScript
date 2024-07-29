@@ -11,28 +11,22 @@ body{
     background-position: center;
     background-blend-mode: darken;
 }
-.container{
-    width: 100%;  
-}
+
 
 .search-container{
-    position: relative;
+    
     width: 550px;
     height: 50px;
     background-color: #fff;
-    border-radius: 15px;
-    overflow: hidden;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    justify-content: space-evenly;
     margin: 0 auto;
-    margin-top: 50px;  
+    margin-top: 50px; 
     box-shadow: 0 3px 10px gray;
 }
 
 #input{
-    width: 100%;
+    width: 70%;
     height: 100%;
     background-color: #fff;
     border: none;
@@ -42,14 +36,9 @@ body{
 }
 
 #search{
-    width: 160px;
+    
     height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 30%;
     background-color: #000;
     color : white;
     cursor: pointer;
@@ -60,8 +49,7 @@ body{
     padding: auto;
     width: 500px;
     background-color: rgba(255,255,255,0.6);
-    margin: 0 auto;
-    margin-top: 30px;
+    margin: 25px  auto;
     border-radius: 15px;
     overflow: hidden;
     margin-bottom: 15px;
@@ -104,7 +92,7 @@ a{
 .bio{
     width: 100%;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 10px;
     font-size: 23px;
 }
 
@@ -144,7 +132,7 @@ p{
         overflow: hidden;
         margin-bottom: 15px;
         box-shadow: 0 3px 10px gray;
-        font-family: 'Lobster Two', cursive;
+        font-family: 'Lobster Two';
     }
 }
 
