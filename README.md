@@ -320,6 +320,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Battery Indicator</summary>
+<p>This project is a simple web application that dynamically displays the battery level of the user's device and includes a dark mode toggle feature. The battery level is visually represented as a progress bar and also shown as a percentage. The application leverages the Battery Status API to fetch the battery information and updates the display in real-time. Additionally, the user can switch between light and dark modes by clicking a toggle button, enhancing the user interface's customization options.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/BatteryIndicator/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/BatteryIndicator">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
