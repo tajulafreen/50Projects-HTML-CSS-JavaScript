@@ -331,6 +331,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Stop Watch</summary>
+<p>This project is a simple and interactive stopwatch application created using HTML, CSS, and JavaScript. The stopwatch can be started, stopped, and reset, allowing users to measure elapsed time accurately. It displays minutes, seconds, and milliseconds, providing a clear and precise time tracking interface. The application is styled with CSS for a clean and modern look, and it is fully responsive, ensuring usability across different devices.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/StopWatch/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/StopWatch">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
