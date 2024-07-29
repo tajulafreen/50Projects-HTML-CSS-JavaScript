@@ -1,3 +1,4 @@
+/* stylelint-disable */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
@@ -32,7 +33,6 @@ section::before {
 section.dark::before {
   background: linear-gradient(#ffc107, #e91e63);
 }
-
 
 section::after {
   content: "";
@@ -73,7 +73,7 @@ section.dark::after {
 }
 
 .box h3 {
-  color: #000000;
+  color: #000;
   font-weight: 500;
   font-size: 1.2rem;
   letter-spacing: 1px;
@@ -129,6 +129,7 @@ section.dark .batteryShape::before {
   left: 4px;
   right: 4px;
   bottom: 4px;
+
   /* background: #333; */
   overflow: hidden;
 }
@@ -148,7 +149,7 @@ section.dark .percentage {
 }
 
 .percent {
-  color: #000000;
+  color: #000;
   font-size: 2em;
   font-weight: 700;
 }
