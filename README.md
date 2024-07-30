@@ -353,6 +353,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Dinosaur Game</summary>
+<p>This project is a simple browser-based "Jump Game" where players control a character that must jump over blocks to avoid collisions. It demonstrates the use of HTML, CSS, and JavaScript to create an interactive game with basic animations and collision detection. The player uses the spacebar to jump and scores points based on survival time. The game includes two types of moving obstacles, adding a layer of challenge.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/JumpGame/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/JumpGame">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
