@@ -342,6 +342,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Dinosaur Game</summary>
+<p>This project is a simple, interactive "Dinosaur Game" built using HTML, CSS, and JavaScript. Inspired by the classic offline game in Google Chrome, the player controls a dinosaur character that must jump over moving obstacles (cacti) to avoid collision. The game features basic animations and a scoring system, providing an engaging experience. The project demonstrates fundamental concepts of web development, including DOM manipulation, event handling, and CSS animations.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/DinosaurGame/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/DinosaurGame">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
