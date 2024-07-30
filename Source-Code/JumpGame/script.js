@@ -1,66 +1,66 @@
-const character = document.getElementById("character");
-const block = document.getElementById("block");
-const block2 = document.getElementById("block2");
-const co = document.getElementById("co");
-var counter = 0;
+const character = document.getElementById('character');
+const block = document.getElementById('block');
+const block2 = document.getElementById('block2');
+let counter = 0;
 
-var je = setInterval(() => {
-  co.classList.add("animate2");
+const jump = () => {
+  if (character.classList.contains('animate')) return;
+  character.classList.add('animate');
   setTimeout(() => {
-    co.classList.add("show");
-  }, 2000);
-}, 1000);
-function jump() {
-  if (character.classList === "animate") {
-    return;
-  }
-  character.classList.add("animate");
-  setTimeout(function () {
-    character.classList.remove("animate");
+    character.classList.remove('animate');
   }, 300);
-}
-function myFunction(event) {
-  var x = event.keyCode;
-  if (x == 32) {
-    jump();
-  }
-}
-var checkDead = setInterval(function () {
-  let characterTop = parseInt(
-    window.getComputedStyle(character).getPropertyValue("top")
+};
+
+// eslint-disable-next-line no-unused-vars
+const checkDead = setInterval(() => {
+  const characterTop = parseInt(
+    window.getComputedStyle(character).getPropertyValue('top'),
+    10,
   );
-  let blockLeft = parseInt(
-    window.getComputedStyle(block).getPropertyValue("left")
+  const blockLeft = parseInt(
+    window.getComputedStyle(block).getPropertyValue('left'),
+    10,
   );
   if (blockLeft < 20 && blockLeft > -20 && characterTop >= 130) {
-    block.style.animation = "none";
-    alert("Game Over. score: " + Math.floor(counter / 100));
+    block.style.animation = 'none';
+    alert(`Game Over. Score: ${Math.floor(counter / 100)}`);
     counter = 0;
-    block.style.animation = "block 1s infinite linear";
-  } else if (ka()) {
+    block.style.animation = 'block 1s infinite linear';
   } else {
-    counter++;
-    document.getElementById("scoreSpan").innerHTML = Math.floor(counter / 100);
+    counter += 1;
+    document.getElementById('scoreSpan').innerText = Math.floor(counter / 100);
   }
 }, 10);
-var add = setInterval(() => {
-  block2.classList.add("animate1");
-  setTimeout(() => {
-    block2.classList.remove("animate1");
-  }, 9000);
-}, 7000);
 
-function ka() {
-  let characterTop = parseInt(
-    window.getComputedStyle(character).getPropertyValue("top")
+const add = () => {
+  block2.classList.add('animate1');
+  setTimeout(() => {
+    block2.classList.remove('animate1');
+  }, 9000);
+};
+
+// Call the `add` function at regular intervals to animate block2
+setInterval(add, 7000);
+
+// eslint-disable-next-line no-unused-vars
+const ka = () => {
+  const characterTop = parseInt(
+    window.getComputedStyle(character).getPropertyValue('top'),
+    10,
   );
-  let blockTop = parseInt(
-    window.getComputedStyle(block2).getPropertyValue("left")
+  const blockTop = parseInt(
+    window.getComputedStyle(block2).getPropertyValue('left'),
+    10,
   );
-  if (blockTop < 20 && characterTop == 100) {
-    block2.classList.remove("animate1");
-    alert("Game Over. score: " + Math.floor(counter / 100));
+  if (blockTop < 20 && characterTop === 100) {
+    block2.classList.remove('animate1');
+    alert(`Game Over. Score: ${Math.floor(counter / 100)}`);
     counter = 0;
   }
-}
-window.addEventListener("keydown", myFunction);
+};
+
+window.addEventListener('keydown', (event) => {
+  if (event.keyCode === 32) {
+    jump();
+  }
+});
