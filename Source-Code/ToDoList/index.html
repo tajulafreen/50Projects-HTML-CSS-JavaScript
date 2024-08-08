@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List with Categories</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <div class="form-container">
+            <input type="text" id="task-input" placeholder="Enter task" />
+            <select id="category-select">
+                <option value="">Select Category</option>
+                <option value="Work">Work</option>
+                <option value="Personal">Personal</option>
+                <option value="Urgent">Urgent</option>
+            </select>
+            <button class="add-btn">Add Task</button>
+        </div>
+        <div class="filter-container">
+            <label for="filter-select">Filter by Category:</label>
+            <select id="filter-select">
+                <option value="">All</option>
+                <option value="Work">Work</option>
+                <option value="Personal">Personal</option>
+                <option value="Urgent">Urgent</option>
+            </select>
+        </div>
+        <ul id="task-list">
+            <!-- Tasks will be dynamically inserted here -->
+        </ul>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>

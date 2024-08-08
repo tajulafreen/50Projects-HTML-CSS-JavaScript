@@ -375,6 +375,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>TO DO LIST</summary>
+<p>This project is a simple web-based To-Do List application that allows users to add tasks, categorize them, and filter tasks by category. The application is built using HTML, CSS, and JavaScript, with JavaScript modules to separate concerns and improve maintainability.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/ToDoList/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/ToDoList">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
