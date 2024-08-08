@@ -364,6 +364,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Memory Card Game</summary>
+<p>The Memory Card Game is a classic card-matching game designed to enhance cognitive skills and memory. Players are presented with a grid of face-down cards. The goal is to find and match all pairs of cards. This project demonstrates fundamental web development skills using HTML, CSS, and JavaScript.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/MemoryCard/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/MemoryCard">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
