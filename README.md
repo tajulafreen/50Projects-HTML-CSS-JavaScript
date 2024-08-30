@@ -386,6 +386,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Password Generator</summary>
+<p>The Password Generator App is a web application that allows users to create secure, customizable passwords based on user-defined criteria such as length and character types. It offers a simple interface for generating and copying passwords to the clipboard. This tool enhances online security by providing strong, random passwords.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/PasswordGenerator/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/PasswordGenerator">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
