@@ -24,22 +24,16 @@ clipboardEl.addEventListener('click', () => {
   alert('Password copied to clipboard!');
 });
 
-function getRandomLower() {
-  return String.fromCharCode(Math.floor(Math.random() * 26) + 97);
-}
+const getRandomLower = () => String.fromCharCode(Math.floor(Math.random() * 26) + 97);
 
-function getRandomUpper() {
-  return String.fromCharCode(Math.floor(Math.random() * 26) + 65);
-}
+const getRandomUpper = () => String.fromCharCode(Math.floor(Math.random() * 26) + 65);
 
-function getRandomNumber() {
-  return String.fromCharCode(Math.floor(Math.random() * 10) + 48);
-}
+const getRandomNumber = () => String.fromCharCode(Math.floor(Math.random() * 10) + 48);
 
-function getRandomSymbol() {
+const getRandomSymbol = () => {
   const symbols = '!@#$%^&*(){}[]=<>/,.';
   return symbols[Math.floor(Math.random() * symbols.length)];
-}
+};
 
 const randomFunc = {
   lower: getRandomLower,
@@ -47,7 +41,7 @@ const randomFunc = {
   number: getRandomNumber,
   symbol: getRandomSymbol,
 };
-function generatePassword(lower, upper, number, symbol, length) {
+const generatePassword = (lower, upper, number, symbol, length) => {
   let generatedPassword = '';
   const typesCount = lower + upper + number + symbol;
   const typesArr = [{ lower }, { upper }, { number }, { symbol }].filter(
@@ -68,7 +62,7 @@ function generatePassword(lower, upper, number, symbol, length) {
   const finalPassword = generatedPassword.slice(0, length);
 
   return finalPassword;
-}
+};
 generateEl.addEventListener('click', () => {
   const length = +lengthEl.value;
   const hasLower = lowercaseEl.checked;
