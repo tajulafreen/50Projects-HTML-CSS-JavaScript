@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar #logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.form-group input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.form-group button {
+  padding: 5px 10px;
+  background-color: #ff6700;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.note-input {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.note-input label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.note-input textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+.note-input button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hrStyle {
+  margin: 20px 0;
+}
+
+.notesBox {
+  background: white;
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-height: 100px;
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+}
+
+.buttonHeading {
+  padding: 5px 20px;
+}
