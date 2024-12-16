@@ -408,6 +408,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Currency Converter</summary>
+<p>This project is a Currency Converter application built using HTML, CSS, and JavaScript. It allows users to convert one currency into another by inputting an amount and selecting the currencies they want to convert from and to.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/CurrencyConverter/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/CurrencyConverter">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
