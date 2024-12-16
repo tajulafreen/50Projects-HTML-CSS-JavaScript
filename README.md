@@ -397,6 +397,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Notes Keeper</summary>
+<p>The Notes Keeper App is a web-based application designed for creating, storing, and managing personal notes. It offers a simple and intuitive interface for adding, searching, and deleting notes using local storage, ensuring data persistence across sessions.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/NotesKeeper/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/NotesKeeper">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
