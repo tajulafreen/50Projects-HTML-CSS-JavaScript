@@ -419,6 +419,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Just Relax</summary>
+<p>The Just Relax App is a breathing exercise web application built with HTML, CSS, and JavaScript (ES6+). It guides users through a breathing exercise by animating visual cues and displaying text prompts such as "Breathe In," "Hold," and "Breathe Out." This helps users relax and practice mindfulness.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/JustRelax/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/JustRelax">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
