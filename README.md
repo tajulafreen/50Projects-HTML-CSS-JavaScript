@@ -430,6 +430,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Recipe App</summary>
+<p>The Recipe App is designed to make cooking enjoyable and easy for everyone, from beginners to seasoned chefs. Discover a wide range of recipes, create your own, and share them with the community. With an intuitive interface and smart features, it helps you explore new dishes, organize your favorite recipes, and plan meals for any occasion.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/RecipeApp/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/RecipeApp">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
