@@ -463,6 +463,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Meme Generator</summary>
+<p>A fun and interactive Meme Generator app built using HTML, CSS, and JavaScript. This app fetches random memes from an API and displays them for the user to enjoy. It also provides options for users to download the meme or share it on social media.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/MemeGenerator/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/MemeGenerator">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
