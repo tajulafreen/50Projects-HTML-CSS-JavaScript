@@ -452,6 +452,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Quiz App</summary>
+<p>A simple quiz app built using HTML, CSS, and JavaScript. The app presents multiple-choice questions, and the user can select answers to test their knowledge. At the end of the quiz, the user's score is displayed along with an option to restart the quiz.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/QuizApp/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/Quizapp">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

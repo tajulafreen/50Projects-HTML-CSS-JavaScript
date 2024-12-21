@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Quiz App</h1>
+    <div id="quiz-box">
+      <div id="question-container">
+        <p id="question">Loading question...</p>
+      </div>
+      <div id="answer-container">
+        <button class="answer-btn">Answer 1</button>
+        <button class="answer-btn">Answer 2</button>
+        <button class="answer-btn">Answer 3</button>
+        <button class="answer-btn">Answer 4</button>
+      </div>
+      <div id="next-button-container">
+        <button id="next-btn" disabled>Next</button>
+      </div>
+    </div>
+    <div id="result-container" class="hidden">
+      <h2>Quiz Completed!</h2>
+      <p id="score"></p>
+      <button id="restart-btn">Restart</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
