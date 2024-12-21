@@ -474,6 +474,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Typing Speed Test</summary>
+<p>The Typing Speed Test app is a simple web-based tool that allows users to test and improve their typing speed. The app displays a random sentence, and the user is asked to type it as quickly and accurately as possible. It calculates the typing speed in words per minute (WPM) and measures the accuracy based on the user's input.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/TypingSpeedTest/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/TypingSpeedTest">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
