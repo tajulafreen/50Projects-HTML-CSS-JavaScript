@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="music-player">
+      <h1>Music Player</h1>
+      <div class="player">
+        <h2 id="song-title">No song playing</h2>
+        <audio id="audio"></audio>
+        <div class="controls">
+          <button id="prev">⏮️</button>
+          <button id="play">▶️</button>
+          <button id="next">⏭️</button>
+        </div>
+        <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+      </div>
+      <div class="song-list">
+        <h3>Your Playlist</h3>
+        <ul id="playlist"></ul>
+      </div>
+      <div class="add-song">
+        <h3>Add Your Songs</h3>
+        <input type="file" id="file-input" accept="audio/*">
+        <button id="add-song-btn">Add Song</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>

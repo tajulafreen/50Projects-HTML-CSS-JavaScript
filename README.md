@@ -441,6 +441,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Music Player</summary>
+<p>A simple, user-friendly Music Player built using HTML, CSS, and JavaScript. This app allows users to upload and manage their favorite songs dynamically, creating a personalized playlist.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/MusicPlayer/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/MusicPlayer">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
