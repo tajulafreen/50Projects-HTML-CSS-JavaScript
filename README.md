@@ -485,6 +485,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Movie Search App</summary>
+<p>The Movie Search App is a simple and responsive web application that allows users to search for movies and view their details. It utilizes a public API like OMDB to fetch and display movie information, including the title, year of release, and poster.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/MovieSearchApp/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/MovieSearchApp">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
