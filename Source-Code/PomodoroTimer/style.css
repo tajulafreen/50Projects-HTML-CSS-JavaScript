@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.timer-display {
+  font-size: 3rem;
+  margin: 20px 0;
+}
+
+.controls button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#start-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+#reset-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+#status {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  color: #555;
+}
