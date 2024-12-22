@@ -496,6 +496,19 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Pomodoro Timer</summary>
+<p>The Productivity Timer (Pomodoro Timer) is a simple yet effective timer application based on the Pomodoro technique. It helps users stay productive by alternating between focus intervals (e.g., 5 minutes) and short breaks (e.g., 2 minutes). The app provides visual cues through animations and sound alerts to signal transitions between focus and break periods.
+
+</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/PomodoroTimer/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/PomodoroTimer">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
