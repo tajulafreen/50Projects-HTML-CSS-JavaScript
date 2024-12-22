@@ -10,23 +10,23 @@ const focusTime = 5 * 60; // 5 minutes in seconds
 const breakTime = 5 * 60; // 5 minutes in seconds
 let timeRemaining = focusTime;
 
-function updateDisplay() {
+const updateDisplay = () => {
   const minutes = Math.floor(timeRemaining / 60);
   const seconds = timeRemaining % 60;
   minutesDisplay.textContent = String(minutes).padStart(2, '0');
   secondsDisplay.textContent = String(seconds).padStart(2, '0');
-}
+};
 
-function toggleSession() {
+const toggleSession = () => {
   isFocusSession = !isFocusSession;
   timeRemaining = isFocusSession ? focusTime : breakTime;
   statusDisplay.textContent = isFocusSession
     ? 'Focus Session'
     : 'Break Session';
   updateDisplay();
-}
+};
 
-function startTimer() {
+const startTimer = () => {
   if (timerInterval) return; // Prevent multiple intervals
   timerInterval = setInterval(() => {
     if (timeRemaining > 0) {
@@ -38,14 +38,14 @@ function startTimer() {
       toggleSession();
     }
   }, 1000);
-}
+};
 
-function resetTimer() {
+const resetTimer = () => {
   clearInterval(timerInterval);
   timerInterval = null;
   timeRemaining = isFocusSession ? focusTime : breakTime;
   updateDisplay();
-}
+};
 
 startBtn.addEventListener('click', startTimer);
 resetBtn.addEventListener('click', resetTimer);
