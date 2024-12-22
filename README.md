@@ -499,12 +499,21 @@ In order to run this project you need:
 <li>
 <details>
 <summary>Pomodoro Timer</summary>
-<p>The Productivity Timer (Pomodoro Timer) is a simple yet effective timer application based on the Pomodoro technique. It helps users stay productive by alternating between focus intervals (e.g., 5 minutes) and short breaks (e.g., 2 minutes). The app provides visual cues through animations and sound alerts to signal transitions between focus and break periods.
-
-</p>
+<p>The Productivity Timer (Pomodoro Timer) is a simple yet effective timer application based on the Pomodoro technique. It helps users stay productive by alternating between focus intervals (e.g., 5 minutes) and short breaks (e.g., 2 minutes). The app provides visual cues through animations and sound alerts to signal transitions between focus and break periods.</p>
 <ul>
 <li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/PomodoroTimer/">Live Demo</a></li>
 <li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/PomodoroTimer">Source</a></li>
+</ul> 
+</details>
+</li>
+
+<li>
+<details>
+<summary>E-Commerce Website</summary>
+<p>This is a simple e-commerce product page built using **HTML**, **CSS**, and **JavaScript**. It displays a list of products fetched from a public API and allows users to add products to their cart. The page features a cart modal where users can view the products they have added, including quantity and total price.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/E-CommerceWebsite/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/E-CommerceWebsite">Source</a></li>
 </ul> 
 </details>
 </li>
