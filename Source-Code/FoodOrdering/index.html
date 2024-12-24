@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Order App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Food Order App</h1>
+    <div class="menu">
+      <div class="menu-item">
+        <img src="burger.jpg" alt="Burger">
+        <div class="item-info">
+          <h3>Burger</h3>
+          <p>$5.99</p>
+          <button class="add-to-cart" data-name="Burger" data-price="5.99">Add to Cart</button>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="pizza.jpg" alt="Pizza">
+        <div class="item-info">
+          <h3>Pizza</h3>
+          <p>$8.99</p>
+          <button class="add-to-cart" data-name="Pizza" data-price="8.99">Add to Cart</button>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="pasta.jpg" alt="Pasta">
+        <div class="item-info">
+          <h3>Pasta</h3>
+          <p>$7.49</p>
+          <button class="add-to-cart" data-name="Pasta" data-price="7.49">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cart">
+      <h2>Your Cart</h2>
+      <ul id="cart-items">
+        <!-- Cart items will appear here -->
+      </ul>
+      <p>Total: $<span id="total-price">0.00</span></p>
+      <button id="place-order" disabled>Place Order</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
