@@ -540,6 +540,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Tic Tac Toe App</summary>
+<p>This is a simple Tic Tac Toe game built using HTML, CSS, and JavaScript. The game allows two players to alternate turns and try to win by getting three of their symbols (X or O) in a row, either horizontally, vertically, or diagonally. The game will automatically check for a winner or draw after each move, and players can restart the game at any time.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/TicTacToe/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/TicTacToe">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
