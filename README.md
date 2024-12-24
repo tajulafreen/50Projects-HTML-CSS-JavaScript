@@ -529,6 +529,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Food Ordering App</summary>
+<p>The Food Order App is a simple web application that allows users to order food items from a menu. Users can view the available items, add them to their cart, and see the total price. The app also enables users to place an order, and upon successful placement, the cart is cleared.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/FoodOrdering/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/FoodOrdering">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
