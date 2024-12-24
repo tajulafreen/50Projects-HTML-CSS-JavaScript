@@ -518,6 +518,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Language Translator</summary>
+<p>The Language Translator App is a simple and user-friendly web application that allows users to translate text between various languages. It uses the MyMemory Translation API to fetch translations.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/LanguageTranslator/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/LanguageTranslator">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
