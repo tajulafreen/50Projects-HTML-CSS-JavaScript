@@ -551,6 +551,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Simple Chat App</summary>
+<p>This is a simple chat application that simulates a conversation where the app echoes the user's messages as a response. Messages are stored in the browser's local storage, so they persist even after the page is refreshed.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/ChatApp/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/ChatApp">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
