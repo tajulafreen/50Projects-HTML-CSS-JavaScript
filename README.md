@@ -573,6 +573,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Drag and Drop App</summary>
+<p>This is a simple drag-and-drop app where users can move items from one list to another. It's a basic implementation of a task manager or an image gallery where users can organize their items by dragging and dropping.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/DragAndDrop/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/DragAndDrop">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
