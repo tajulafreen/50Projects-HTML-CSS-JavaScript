@@ -584,6 +584,17 @@ In order to run this project you need:
 </details>
 </li>
 
+<li>
+<details>
+<summary>Ads Blocker Extension</summary>
+<p>This is a simple Ad Blocker Extension. AdBlocker is a lightweight browser extension designed to block intrusive advertisements and enhance your browsing experience.</p>
+<ul>
+<li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/AdsBlockerExtension/">Live Demo</a></li>
+<li><a href="https://github.com/tajulafreen/50Projects-HTML-CSS-JavaScript/tree/main/Source-Code/AdsBlockerExtension">Source</a></li>
+</ul> 
+</details>
+</li>
+
 </ol>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

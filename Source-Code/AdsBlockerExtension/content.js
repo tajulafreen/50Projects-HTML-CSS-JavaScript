@@ -1,14 +1,15 @@
+/* eslint-disable no-undef */
 const adSelectors = [
   'iframe[src*="ads"]',
   'div[class*="ad"]',
   'div[id*="ad"]',
-  "ins.adsbygoogle",
-  "[data-ad]",
-  ".ad-banner",
+  'ins.adsbygoogle',
+  '[data-ad]',
+  '.ad-banner',
 ];
 
 // Normalize domain
-const normalizeDomain = (domain) => domain.replace(/^www\./, "");
+const normalizeDomain = (domain) => domain.replace(/^www\./, '');
 
 chrome.storage.local.get(
   { adBlockerEnabled: true, whitelist: [] },
@@ -37,5 +38,5 @@ chrome.storage.local.get(
     // Observe dynamically loaded ads
     const observer = new MutationObserver(blockAds);
     observer.observe(document.body, { childList: true, subtree: true });
-  }
+  },
 );
