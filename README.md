@@ -37,7 +37,7 @@ In order to run this project you need:
  <li>Open the index.html file in your preferred web browser.</li>
  </ol>
 
-<p>Feel free to explore, modify, and experiment with the code to better understand how these animations and transitions are achieved.</p>
+<p>Feel free to explore, modify, and experiment with the code to better understand.</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
