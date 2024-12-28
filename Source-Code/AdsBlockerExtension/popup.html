@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ad Blocker</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Ad Blocker</h1>
+  <label>
+    <input type="checkbox" id="toggle-ad-blocker" checked>
+    Enable Ad Blocker
+  </label>
+  <div>
+    <h2>Whitelist</h2>
+    <input type="text" id="whitelist-input" placeholder="Enter website URL">
+    <button id="add-to-whitelist">Add</button>
+    <ul id="whitelist"></ul>
+  </div>
+  <p id="status"></p>
+  <script src="popup.js"></script>
+</body>
+</html>
