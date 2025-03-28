@@ -564,7 +564,7 @@ In order to run this project you need:
 
 <li>
 <details>
-<summary>Simple Chat App</summary>
+<summary>Interactive Polling App</summary>
 <p>This is an interactive polling app that allows users to vote on a specific question. Users can vote for their preferred options and view the results in real-time. The app tracks the votes for each option and stores them in the local storage so the votes persist even after the page is refreshed.</p>
 <ul>
 <li><a href="https://tajulafreen.github.io/50Projects-HTML-CSS-JavaScript/Source-Code/InteractivePolling/">Live Demo</a></li>
